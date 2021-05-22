@@ -1,0 +1,13 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+    background: linear-gradient(90deg, #010d2e 0%, #3e2e69 100%);
+  }
+
+  .text-custom {
+        color: #3048A6;
+      opacity: 1;
+  }
