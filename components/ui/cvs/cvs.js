@@ -1,7 +1,7 @@
 import React from 'react';
 import Summary from "./summary";
 import resumen from '../../../data/cvs';
-import Skills from './Skills';
+import Skills from './skills';
 import Experience from './experience';
 import Projects from './projects';
 
