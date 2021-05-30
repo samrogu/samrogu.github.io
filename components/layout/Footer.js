@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="flex-1 mb-6 text-black">
                     <a className="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
                         <Logo />
-              Samrogu
+              Samuel Guardado
             </a>
                 </div>
                 <div className="flex-1">
