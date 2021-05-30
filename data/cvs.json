@@ -1,0 +1,220 @@
+{
+    "contact": {
+      "phone": "+50378708593",
+      "email": "samrogu@gmail.com",
+      "website": "https://samrogu.com",
+      "location": "El Salvador, Chalatenango"
+    },
+    "skills": [
+      {
+        "title": "General",
+        "type": "percent",
+        "subskills": [
+          {
+            "name": "Architecture",
+            "percent": 40
+          },
+          {
+            "name": "Mobile Development",
+            "percent": 40
+          },
+          {
+            "name": "Web Development",
+            "percent": 60
+          },
+          {
+            "name": "DevOps",
+            "percent": 50
+          },
+          {
+            "name": "Backend Development",
+            "percent": 90
+          }
+        ]
+      },
+      {
+        "title": "Languages",
+        "type": "percent",
+        "subskills": [
+          {
+            "name": "Javascript",
+            "percent": 60
+          },
+          {
+            "name": "Java",
+            "percent": 70
+          },
+          {
+            "name": "Python",
+            "percent": 50
+          },
+          {
+            "name": "C#",
+            "percent": 30
+          },
+          {
+            "name": "Go",
+            "percent": 20
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "type": "tag",
+        "subskills": [
+          {
+            "name": " React"
+          },
+          {
+            "name": " | Flutter"
+          },
+          {
+            "name": " | React Native"
+          },
+          {
+            "name": " | Spring Cloud"
+          },
+          {
+            "name": " |  Angular"
+          },
+          {
+            "name": " | Node"
+          },
+          {
+            "name": " | Django"
+          },
+          {
+            "name": " | NextJs"
+          }
+        ]
+      },
+      {
+        "title": "Software",
+        "type": "tag",
+        "subskills": [
+          {
+            "name": "Docker"
+          },
+          {
+            "name": " | Unity"
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "type": "tag",
+        "subskills": [
+          {
+            "name": "Postgresql"
+          },
+          {
+            "name": " | Mongodb"
+          },
+          {
+            "name": " | Oracle 12c"
+          },
+          {
+            "name": " | Firebase"
+          },
+          {
+            "name": " | SQL Server"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "profession":"Full Stack Developer | DevOps",
+      "description":"Apasionado por temas de desarrollo de Microservicios, CI/CD y tecnologías Cloud"
+    },
+    "education": [
+      {
+        "institution": "Middle East Technical University, Turkey",
+        "degree": "Geological Engineering",
+        "start": "2013",
+        "end": "2006"
+      },
+      {
+        "institution": "Gazi University, Turkey",
+        "degree": "Industrial Engineering",
+        "start": "2002",
+        "end": "2006"
+      }
+    ],
+    "experience": [
+      {
+        "role": "SRE",
+        "company": "Equifax",
+        "description": "Reability System",
+        "start": "02/2021",
+        "end": ""
+      },
+      {
+        "role": "Senior Java Development",
+        "company": "Equifax",
+        "description": "development",
+        "start": "04/2018",
+        "end": "10/2020"
+      },
+      {
+        "role": "Manager Development ",
+        "company": "RFID",
+        "description": "Reability System",
+        "start": "09/2016",
+        "end": "04/2018"
+      },
+      {
+        "role": "Consultor Java ",
+        "company": "Ministerio de Hacienda",
+        "description": "development",
+        "start": "09/2015",
+        "end": "09/2016"
+      },
+      {
+        "role": "Java Development",
+        "company": "GrupoGD",
+        "description": "development",
+        "start": "01/2014",
+        "end": "09/2015"
+      }
+    ],
+    "social": [
+      {
+        "service": "youtube",
+        "url": "https://www.youtube.com/channel/UCczRc31u_YXNiSpYKxQU_Ug"
+      },
+      {
+        "service": "linkedin",
+        "url": "https://www.linkedin.com/in/barancezayirli"
+      },
+      {
+        "service": "twitter",
+        "url": "https://twitter.com/barancezayirli"
+      },
+      {
+        "service": "angellist",
+        "url": "https://angel.co/baran-cezayirli"
+      },
+      {
+        "service": "github",
+        "url": "https://github.com/barancezayirli"
+      },
+      {
+        "service": "facebook",
+        "url": "https://www.facebook.com/barancezayirli"
+      },
+      {
+        "service": "instagram",
+        "url": "https://www.instagram.com/barancezayirli"
+      }
+    ],
+    "role": "SRE",
+    "projects": [
+      {
+        "name": "App",
+        "company": "Start",
+        "description": "",
+        "link": ""
+      }
+    ],
+    "fullname": "Samuel Guardado"
+  }
