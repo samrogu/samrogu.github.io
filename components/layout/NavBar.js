@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 const NavBar = () => {
     return (
-        <nav id="header" className="text-custom border-b  fixed w-full z-30 top-0 bg-gray-700">
+        <nav id="header" className="text-custom border-b  fixed w-full z-30 top-0">
             <div className="constainer mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
                 <div className="pl-4 flex items-center">
                     <a className="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">

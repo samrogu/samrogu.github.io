@@ -48,6 +48,7 @@ document.addEventListener("scroll", function () {
     navcontent.classList.remove("text-black");
     header.classList.remove("shadow");
     navcontent.classList.remove("bg-white");
+    navcontent.classList.add("bg-gray-100");
   }
 });
   }, [])
