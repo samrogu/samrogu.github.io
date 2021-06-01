@@ -16,3 +16,8 @@
   .fontAppear {
     font-family: 'Source Sans Pro', sans-serif;
   }
+
+  .profileImage {
+    width: 179px;
+    height: 179px;
+  }
