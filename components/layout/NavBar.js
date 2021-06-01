@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 const NavBar = () => {
     return (
-        <nav className="text-custom w-full">
+        <nav id="header" className="text-custom border-b  fixed w-full z-30 top-0 bg-gray-700">
             <div className="constainer mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
                 <div className="pl-4 flex items-center">
                     <a className="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl">
@@ -20,16 +20,16 @@ const NavBar = () => {
                         </svg>
                     </button>
                 </div>
-                <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+                <div className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-white  p-4 lg:p-0 z-20" id="nav-content">
                     <ul className="list-reset lg:flex justify-end flex-1 items-center">
                         <li className="mr-3">
-                            <a className="inline-block py-2 px-4 text-white font-bold no-underline hover:text-yellow-500 hover:text-underline py-2 px-4" href="#">Skill</a>
+                            <a className="inline-block py-2 px-4 font-bold no-underline hover:text-yellow-500 hover:text-underline py-2 px-4" href="#">Skill</a>
                         </li>
                         <li className="mr-3">
-                            <a className="inline-block text-white no-underline font-bold  hover:text-yellow-500 hover:text-underline py-2 px-4" href="#">Projects</a>
+                            <a className="inline-block no-underline font-bold  hover:text-yellow-500 hover:text-underline py-2 px-4" href="#">Projects</a>
                         </li>
                         <li className="mr-3">
-                            <a className="inline-block text-white no-underline font-bold hover:text-yellow-500 hover:text-underline py-2 px-4" href="#link1">About me</a>
+                            <a className="inline-block  no-underline font-bold hover:text-yellow-500 hover:text-underline py-2 px-4" href="#link1">About me</a>
                         </li>
 
                     </ul>

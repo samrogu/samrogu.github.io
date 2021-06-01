@@ -63,7 +63,8 @@
         "type": "tag",
         "subskills": [
           {
-            "name": " React"
+            "name": " React",
+            "percent": 60
           },
           {
             "name": " | Flutter"
