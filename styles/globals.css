@@ -5,6 +5,7 @@
 
 .gradient {
     background: linear-gradient(90deg, #010d2e 0%, #3e2e69 100%);
+    font-display: initial;
   }
 
   .text-custom {
