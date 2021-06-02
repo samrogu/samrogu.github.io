@@ -1,7 +1,8 @@
 import React,{useEffect} from 'react';
 import Layout from '../components/layout/Layout'
 import Cvs from '../components/ui/cvs/cvs'
-
+import Summary from '../components/ui/cvs/summary';
+import resumen from '../data/cvs';
 export default function Home() {
   
   useEffect(()=> {
@@ -24,7 +25,7 @@ document.addEventListener("scroll", function () {
     navaction.classList.add("text-white");
     //Use to switch toggleColour colours
     for (var i = 0; i < toToggle.length; i++) {
-      toToggle[i].classList.add("text-gray-800");
+      toToggle[i].classList.add("text-pink-600");
       toToggle[i].classList.remove("text-white");
     }
     header.classList.add("shadow");
@@ -42,7 +43,7 @@ document.addEventListener("scroll", function () {
     //Use to switch toggleColour colours
     for (var i = 0; i < toToggle.length; i++) {
       toToggle[i].classList.add("text-white");
-      toToggle[i].classList.remove("text-gray-800");
+      toToggle[i].classList.remove("text-pink-600");
     }
     navcontent.classList.add("text-white");
     navcontent.classList.remove("text-black");
@@ -58,7 +59,9 @@ document.addEventListener("scroll", function () {
       <Layout>
         <div className="pt-24">
           <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-            <Cvs />
+            <Summary data={resumen.summary} />
+            <Cvs resumen={resumen}/>
+            
           </div>
         </div>
       </Layout>
