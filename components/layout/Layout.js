@@ -11,7 +11,7 @@ const Layout = props => {
             <html lang="es" />
             <meta charSet="utf-8" />
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-            <title>Full Stack Developer and SRE | Samuel Guardado </title>
+            <title>Cloud | Full Stack Developer and SRE | Samuel Guardado </title>
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
